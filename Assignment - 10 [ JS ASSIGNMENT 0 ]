@@ -1,0 +1,88 @@
+JavaScript Fundamentals Assignment
+
+What is JavaScript?
+JS is a versatile programing lannguage used for web devlopment. They are used to create the dynamic and respomsove web pages with the real time datas
+
+Variables and Types:
+  let userAge = 25;
+  let userName = "ram";
+  console.log("User Age:", userAge);
+  console.log("User Name:", userName);
+
+Comments in JavaScript:
+/*
+  this function is designed to greet the user
+*/
+
+Write a multi-line comment explaining the purpose of a function you create in the next step.
+Operations:
+  let num1 = 10;
+  let num2 = 20;
+/add
+  let sum = num1 + num2;
+/sub
+  let difference = num1 - num2;
+/mul
+  let product = num1 * num2;
+/div
+  let quotient = num1 / num2;
+console.log("Sum:",sum);
+console.log("Difference:", difference);
+console.log("Product:", product);
+console.log("Quotient:", quotient);
+
+Data Types:
+string
+  let greeting = "hello world";
+  console.log("String:", greeting);
+
+Number
+  let age = 30;
+  console.log("Number:", age);
+
+Boolean
+  let isLoggedIn = true;
+  console.log("Boolean:", isLoggedIn);
+
+Array
+  let fruits = ["apple", "banana", "grapes", "cherry"]
+  console.log("Array:", fruits);
+
+Functions in JavaScript:
+  function greetuser(name)
+{
+return "Hello, " + name + "!!";
+}
+
+console.log(greetuser("Ram"));
+
+if Else in JavaScript:
+  let temp = 32;
+  if(temp >30)
+  {
+    console.log("It is a hot day");
+  }
+  else{
+        console.log("The weather is plesant");
+  }
+
+FOR LOOP:
+  for (let i=1; i<=5; i++)
+  {
+    console.log(i);
+  }
+
+Loose vs Strict Equality:
+
+Loose Equality:
+  Compares 2 values for equality after converting both valies to a common type.It is less strict
+because it does not consider the type of variable.
+  console.log(5 == '5')
+output: true
+Strict Equality:
+  Compares 2 values for equality without converting them to a common type. It is strict
+because it considers both the value.
+  console.log(5 == '5') 
+output: false
+
+
